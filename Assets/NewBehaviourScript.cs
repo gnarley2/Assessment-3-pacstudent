@@ -17,12 +17,12 @@ public class NewBehaviourScript : MonoBehaviour
  IEnumerator Playdasounds()
  {
     for(int i = 0; i < audioClipArray.Length; i++){
-  audioSource.clip = audioClipArray[i];
+            audioSource.clip = audioClipArray[i];
             audioSource.Play ();
-           //hasplayedIntro = true;
+           
            yield return new WaitWhile(()=>audioSource.isPlaying);
-           audioSource.clip = audioClipArray[1];
-           audioSource.loop = true;
+            audioSource.clip = audioClipArray[1];
+            audioSource.loop = true;
     }
   
  }
