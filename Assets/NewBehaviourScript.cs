@@ -21,8 +21,8 @@ public class NewBehaviourScript : MonoBehaviour
             audioSource.Play ();
            //hasplayedIntro = true;
            yield return new WaitWhile(()=>audioSource.isPlaying);
-           //audioSource.clip = audioClipArray[1];
-           //audioSource.Play ();
+           audioSource.clip = audioClipArray[1];
+           audioSource.loop = true;
     }
   
  }
