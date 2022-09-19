@@ -22,14 +22,14 @@ public class NewBehaviourScript : MonoBehaviour
     }
  IEnumerator Playdasounds()
  {
-    for(int i = 0; i < audioClipArray.Length; i++){
-  //audioSource.clip = audioClipArray[0];
+    //for(int i = 0; i < audioClipArray.Length; i++){
+  audioSource.clip = audioClipArray[0];
             audioSource.Play ();
            //hasplayedIntro = true;
            yield return new WaitWhile(()=>audioSource.isPlaying);
            audioSource.clip = audioClipArray[1];
-           //audioSource.Play ();
-    }
+           audioSource.Play ();
+    //}
   
  }
     // Update is called once per frame
