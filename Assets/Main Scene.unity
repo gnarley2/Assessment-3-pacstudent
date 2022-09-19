@@ -219,7 +219,6 @@ GameObject:
   - component: {fileID: 1570320164}
   - component: {fileID: 1570320166}
   - component: {fileID: 1570320168}
-  - component: {fileID: 1570320167}
   m_Layer: 0
   m_Name: BackGround intro&normal
   m_TagString: Untagged
@@ -434,18 +433,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1570320167
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570320163}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f8c1c458107f9a448d660e6bc53f2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1570320168
 MonoBehaviour:
   m_ObjectHideFlags: 0
