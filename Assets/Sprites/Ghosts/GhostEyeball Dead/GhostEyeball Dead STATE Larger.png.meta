@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -78,9 +78,222 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 320
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d7135967eca5245b374a25136dcc33
+      internalID: 1520916695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 320
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e97a4c6db2e6a148a692286920e7641
+      internalID: -569947142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 320
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f79b750c65312bb44b3035a2629376f9
+      internalID: 2075423991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_3
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 192
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82f4386744ec9a489186a90737f9ba2
+      internalID: -1009859470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 192
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69b5c894079ef440b93a7105b8f986f
+      internalID: -61866650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_5
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 192
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6011a2507f758a54587b53c0410c24dc
+      internalID: 870158580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_6
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 64
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2ba37f3e5e5e443b8d395e88a2d5a4
+      internalID: -1781115916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_7
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 64
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6518084f0ac1b8b47912eea566b2b881
+      internalID: -1055089061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostEyeball Dead STATE Larger_8
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 64
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8003e241e2b73c34a8e554ae852e18bc
+      internalID: 1997547884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -91,7 +304,16 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GhostEyeball Dead STATE Larger_7: -1055089061
+      GhostEyeball Dead STATE Larger_0: 1520916695
+      GhostEyeball Dead STATE Larger_6: -1781115916
+      GhostEyeball Dead STATE Larger_4: -61866650
+      GhostEyeball Dead STATE Larger_1: -569947142
+      GhostEyeball Dead STATE Larger_8: 1997547884
+      GhostEyeball Dead STATE Larger_3: -1009859470
+      GhostEyeball Dead STATE Larger_5: 870158580
+      GhostEyeball Dead STATE Larger_2: 2075423991
   spritePackingTag: 
   pSDRemoveMatte: 0
   userData: 
