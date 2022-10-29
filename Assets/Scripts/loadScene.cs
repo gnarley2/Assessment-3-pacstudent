@@ -22,16 +22,11 @@ public void PressLevel2(){
 }
 
 public void QuitButt(){
-    Application.Quit();
+    
+    UnityEditor.EditorApplication.isPlaying = false;
 }
 
-public void MainMenuButt(){
-   
-}
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
+
 }
