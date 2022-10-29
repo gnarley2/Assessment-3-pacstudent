@@ -20,17 +20,23 @@ public class lerp : MonoBehaviour
     {
         elapsedtime += Time.deltaTime;
         float percentComplete = elapsedtime / duration;
-while(true)
-{
+transform.position=start;
+if(transform.position==start){
         transform.position = Vector3.Lerp(start, end, percentComplete);
 }
-    //    if(transform.position==end){
-      //       lerpBACK();
-      //  }
-    }
-    void lerpBACK(){
-                elapsedtime += Time.deltaTime;
-        float percentComplete = elapsedtime / duration;
-            transform.position = Vector3.Lerp(end, start, percentComplete);
-    }
+        if(Vector3.Distance(transform.position, end)<0.01f){
+            transform.position = start;
+           // backtoSTART();
+        }
+        
 }
+void backtoSTART(){
+            elapsedtime += Time.deltaTime;
+        float percentComplete = elapsedtime / duration;
+
+            transform.position = Vector3.Lerp(start, end, percentComplete);;
+
+}
+}
+
+    
