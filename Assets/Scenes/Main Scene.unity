@@ -5253,10 +5253,9 @@ GameObject:
   - component: {fileID: 1570320165}
   - component: {fileID: 1570320164}
   - component: {fileID: 1570320166}
-  - component: {fileID: 1570320168}
   m_Layer: 0
   m_Name: BackGround MUSIC
-  m_TagString: Untagged
+  m_TagString: music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5271,7 +5270,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: d9d6a59ad248a5144a8d3888d89a1543, type: 2}
-  m_audioClip: {fileID: 8300000, guid: c165c653fc08bd84e85500e74c5ad824, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 1252819d71ba5b64badf19abe40f745c, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5382,7 +5381,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: d9d6a59ad248a5144a8d3888d89a1543, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 1252819d71ba5b64badf19abe40f745c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c165c653fc08bd84e85500e74c5ad824, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5468,22 +5467,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1570320168
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1570320163}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ebf2b0a65bcd1a742a6873c758935162, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 1570320164}
-  audioClipArray:
-  - {fileID: 8300000, guid: c165c653fc08bd84e85500e74c5ad824, type: 3}
-  - {fileID: 8300000, guid: 1252819d71ba5b64badf19abe40f745c, type: 3}
 --- !u!1 &1623346204
 GameObject:
   m_ObjectHideFlags: 0
